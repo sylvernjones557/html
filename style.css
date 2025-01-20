@@ -1,0 +1,52 @@
+.parent {
+    width:300px;
+    height:300px;
+    position: relative; /* Default */
+    border:10px solid #333;
+    padding:20px 20px 20px 20px;
+    margin:20px 20px 20px 20px;
+    transition: all 1s;
+    
+  }
+ 
+  .animated-button {
+    background-color: #3498db; /* Initial button color */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.1s ease; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 6px rgba(64, 3, 187, 0); /* Subtle shadow */
+  }
+  
+  .animated-button:hover {
+    background-color: #2980b9; /* Change background on hover */
+    transform: scale(1.1); /* Slightly enlarge the button */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0); /* Increase shadow intensity */
+  }
+  
+  .but{
+    position:fixed;
+    width:50px;
+    height:50px;
+    top:30px;
+    left:1500px;
+    right:30px;
+    background-color:hotpink;
+    color:whitesmoke;
+    padding: 5px 5px 5px 5px;
+    border:2px solid rgb(248, 144, 144);
+    cursor:zoom-in;
+    border-radius:2px;
+    transition:all 0.2s 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Example box-shadow */
+    box-sizing:border-box;
+  }
+  .but:hover{
+    background-color:green;
+    transform: scale(2.0);
+
+  }
